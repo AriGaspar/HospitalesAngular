@@ -1,0 +1,22 @@
+.cuadrado {
+    width: 40%;
+}
+
+.sorted li button {
+    vertical-align: middle;
+    list-style-type: none;
+    text-align: center;
+    font-size: 23px;
+    float: left;
+}
+
+.sorted li {
+    display: block;
+    width: 100%;
+}
+
+.sorted {
+    display: block;
+    margin: 0px;
+    list-style-type: none;
+}

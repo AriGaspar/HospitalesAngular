@@ -1,0 +1,27 @@
+<body class="nuevoBody">
+    <div class="grid-container">
+        <div class="grid-content">
+            <div class="grid-container2">
+                <div class="grid-content2">
+                    <br>
+                    <h1>Resultados de "{{termino_url}}"</h1>
+                    <hr>
+                    <div *ngFor="let hospital of this.hospital_data; let i=index" class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h1 class="card-text">
+                                {{hospital.nombre}}
+                            </h1>
+                        </div>
+                    </div>
+                    <div *ngIf="this.hospital_data.length===0">
+                        <h2>No hay resultados bro...</h2>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>

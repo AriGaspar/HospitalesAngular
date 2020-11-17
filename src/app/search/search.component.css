@@ -1,0 +1,37 @@
+.nuevoBody {
+    background-color: #E3E2E2;
+}
+
+.grid-container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 75% 1fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: ". c .";
+}
+
+.grid-content {
+    margin-top: 10px;
+    grid-area: c;
+    background-color: white;
+}
+
+.grid-container2 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 75% 1fr;
+    grid-template-rows: 100vh;
+    grid-template-areas: ". c2 .";
+}
+
+.grid-content2 {
+    grid-area: c2;
+}
+
+.card {
+    display: block !important;
+}
+
+h1 {
+    margin-top: 5px;
+}

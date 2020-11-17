@@ -1,0 +1,18 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- <a class="profile_img" routerLink="/profile" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img style="border-radius: 50%;" src="assets/img/398710.jpg" alt="">
+    </a> -->
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="form-inline my-2 my-lg-0">
+
+        </form>
+        <input id="s-inpt" #termino (keyup)="evaluar()" type="search" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Search">
+        <!-- <input id="s-inpt" #termino routerLink="/search/" type="search" class="form-control mr-sm-2" placeholder="Buscar" aria-label="Search"> -->
+        <button id="s-btn" (click)="redirigir(termino.value)" class="btn btn-outline-success mr-sm-2">Search</button>
+    </div>
+</nav>
